@@ -1,0 +1,75 @@
+header {
+  margin-bottom: 110px;
+  section {
+  }
+  .text-hero {
+    div {
+      margin: 193px 283px 0 150px;
+      span {
+        display: block;
+      }
+    }
+  }
+}
+main {
+  .sec-one {
+    margin-bottom: 110px;
+    div {
+      width: 364px;
+      p {
+        font: inherit;
+      }
+    }
+  }
+  .sec-two {
+    .d-one {
+    }
+    .d-two {
+      background-color: #f7fbfa;
+    }
+  }
+  .sec-tree {
+    padding: 110px 150px;
+    .jurusan {
+      .study {
+        .d-one {
+        }
+        .d-two {
+        }
+      }
+    }
+    #artikel {
+      .artikel {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, auto);
+        grid-template-areas:
+          'one two'
+          'one three';
+
+        .one {
+          grid-area: one;
+        }
+        .two {
+          grid-area: two;
+        }
+        .three {
+          grid-area: three;
+        }
+      }
+    }
+  }
+  footer {
+    .footer {
+      .parent-footer {
+        .child-footer {
+          p {
+            span {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
